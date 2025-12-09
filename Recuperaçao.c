@@ -26,7 +26,7 @@ int main() {
 		return 1;
 	}
 
-	printf("Digite 100 frases (mC!x. 100 caracteres cada):\n");
+	printf("Digite 100 frases (max. 100 caracteres cada):\n");
 
 	getchar();
 
@@ -66,7 +66,8 @@ int main() {
 		printf("%d: %s\n", i + 1, frasesLidas[i]);
 	}
 
-	printf("\nMC)dia de caracteres das strings: %.2f\n", media);
+	printf("\n media de caracteres das strings: %.2f\n", media);
 
 	return 0;
 }
+
